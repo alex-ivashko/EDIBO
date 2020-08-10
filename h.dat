@@ -1,0 +1,159 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  w
+    4  close
+    5  PS1="$ "
+    6  cd -
+    7  clear
+    8  printenv
+    9  printenv |less
+   10  clear
+   11  for i in a b c; do echo $i; done
+   12  for i in a b c; do echo i: $i; done
+   13  for k in a b c z; do echo k: $k; done
+   14  for HOME in a b c; do echo $HOME; done
+   15  for 3 in a b c; do echo $3; done
+   16  for HOME in a b c; do echo $HOME; done
+   17  seq 1 10
+   18  N="11 22 77 45"
+   19  for N in a b c; do echo $N; done
+   20  for i in $N; do echo $N; done
+   21  for i in $N; do echo $iN; done
+   22  for i in $N; do echo $i; done
+   23  N="21 22 23"
+   24  for i in $N; do echo $i; done
+   25  sum N
+   26  for i in $N; do echo(( $i*5)); done
+   27  for i in $N; do echo(($i*5)); done
+   28  for i in $N; do echo ($(i*5)); done
+   29  for i in $N; do echo (($i*5)); done
+   30  N="21 22 23"
+   31  for i in $N; do echo (($i*5)); done
+   32  for i in $N; do echo $((i*5)); done
+   33  seq 1 10
+   34  for i in seq 1 5; do echo $i*5; done
+   35  for i in seq 1 5; do echo $i5; done
+   36  for i in seq 1 5; do echo $i; done
+   37  for i in `seq 1 5`; do echo $i; done
+   38* for i in  ; do echo $i; done
+   39  for i in seq 1 5; do echo $(((i*5)))^2; done
+   40  for i in seq 1 5; do echo $((i*5))^2; done
+   41  for i in seq 1 5; do echo $(i*5); done
+   42  clear
+   43  seq 1 10
+   44  for i in $(seq 1 5); do echo $(i^2); done
+   45  for i in $(seq 1 5); do echo $((i*5))^2; done
+   46  for i in $(seq 1 5); do echo $((i*i)); done
+   47  for i in $(seq 1 5); do echo $i  $((i*i)); done
+   48  for i in $(seq 1 5); do echo $i  $((i*i)) $((i*i*i)) ; done
+   49  for i in $(seq 1 5); do echo $i     $((i*i))    $((i*i*i)) ; done
+   50  for i in $(seq 1 5); do echo "$i     $((i*i))    $((i*i*i))" ; done
+   51  for i in $(seq 1 10); do echo "$i     $((i*i))    $((i*i*i))" ; done
+   52  for i in $(seq 1 10); do echo "$i    $((i*i))   $((i*i*i))" ; done
+   53  for i in $(seq 1 10); do echo "$i    $((i*i))   $(($1*$i*$i))" ; done
+   54  for i in $(seq 1 10); do echo "$i    $(($i*$i))   $(($1*$i*$i))" ; done
+   55  for i in `seq 1 10`; do echo "$i    $(($i*$i))   $(($1*$i*$i))" ; done
+   56  for i in `seq 1 10`; do echo "$i    $(($i*$i))   $(($1*$i*$i))@; done
+for i in `seq 1 10`; do echo "$i    $(($i*$i))   $(($1*$i*$i))"; done
+for i in `seq 1 10`; do echo "$i    $(($i*$i))   $(($1*$i*$i))@; done
+   57  for i in `seq 1 10`; do echo "$i $(($i*$i)) $(($1*$i*$i))"; done
+   58  for i in $(seq 1 10); do echo "$i    $((i*i))   $(($1*$i*$i))" ; done
+   59  for i in $(seq 1 5); do echo $i  $((i*i)) $((i*i*i)) ; done
+   60  $((5-3))
+   61  ((5-3))
+   62  calc ((5-3))
+   63  echo ((5-3))
+   64  echo $((5-3))
+   65  echo $((5%2))
+   66  for i in $(seq 1 5); do echo -e "$i  $((i*i)) $((i*i*i))" ; done
+   67  for i in $(seq 1 5); do echo -e "$i  $((i*i))\$((i*i*i))" ; done
+   68  for i in $(seq 1 5); do echo -e "$i\t\$((i*i))\t\" ; done
+for i in $(seq 1 5); do echo -e "$i\t\$((i*i))" ; done
+   69  for i in $(seq 1 5); do echo -e "$i  $((i*i)) $((i*i*i))" ; done
+   70  for i in $(seq 1 5); do echo -e "$i  $((i*i))" ; done
+   71  for i in $(seq 1 10); do echo -e "$i  $((i*i))" ; done
+   72  for i in $(seq 1 10); do echo -e "$i  \$((i*i))" ; done
+   73  for i in $(seq 1 10); do echo -e "$i  \t$((i*i))" ; done
+   74  for i in $(seq 1 10); do echo -e "$i  \t$((i*i))" ; done > a.dat
+   75  cat a.dat
+   76  for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat
+   77  cat a.dat
+   78  for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat; cat a.dat
+   79  for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat;tail a.dat
+   80  time for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat;tail a.dat
+   81  ls
+   82  ls -size
+   83  ls -l | grep a.dat
+   84  chmod 000 a.dat
+   85  ls -l | grep a.dat
+   86  head -2 a.dat
+   87  head -rv
+   88  chmod 666 a.dat
+   89  head -2 a.dat
+   90  head -n 2 a.dat 
+   91  tail -n 2 a.
+   92  ls
+   93  ls -lt
+   94  for i in $( ls ); do echo $i; done
+   95  for i in $( ls ); do echo $i; done > b.dat
+   96  ls
+   97  ls - lt
+   98  ls - 1
+   99  ls -l
+  100  for i in $( ls ); do echo $i; for i in $( ls ); do echo $i; done; for i in $( ls ); do echo $i; done
+  101  ls
+  102  for i in $( ls ); do echo $i
+  103  for i in $( ls ); do echo $i; done
+  104  ls -l b.dat
+  105  ls -l a.dat
+  106  ls -l | grep *.dat
+  107  *dat
+  108  *.dat
+  109  ls -l | grep *.dat
+  110  ls -l | grep *.b.dat
+  111  ls -l | grep .dat
+  112  ls
+  113  ls -l | egrep dat
+  114  cat a.dat
+  115  ls -l | egrep dat
+  116  head 10
+  117  for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat;tail a.dat
+  118  for i in $(seq 1 100); do echo -e "$i  \t$((i*i))" ; done > a.dat;head a.dat
+  119  tail -n 2 a.
+  120  head a.dat
+  121  head -3 a.dat
+  122  head -3 a.dat > c.dat
+  123  ls
+  124  ls = l c.dat
+  125  ls = l c. dat
+  126  head -3 a.dat > c.dat
+  127  ls
+  128  ls -l c.dat
+  129  for i in $(seq 1 4); do echo -e "$i  \t$((i*i))" ; done > d.dat
+  130  ls - l d.dat
+  131  for i in $(seq 1 4); do echo "$i $((i*i))"; done > d.dat
+  132  ls -l d.dat
+  133  cat d.dat
+  134  for i in $(seq 1 2); do echo "$i $((i*i))"; done > d.dat
+  135  cat d.dat
+  136  ls - l d.dat
+  137  for i in $(seq 1 2); do echo "$i $((i*i))"; done > d.dat
+  138  ls -l d.dat
+  139  hexdump d.dat
+  140  for i in $(seq 1); do echo "$i $((i*i))"; done | hexdump
+  141  echo 1 |hexdump
+  142  echo 1
+  143  echo 2 |hexdump
+  144  echo32 |hexdump
+  145  echo 3 |hexdump
+  146  echo 6 |hexdump
+  147  echo 10 |hexdump
+  148  echo A |hexdump
+  149  echo a |hexdump
+  150  echo B |hexdump
+  151  echo Z |hexdump
+  152  echo z |hexdump
+  153  echo Z |hexdump
+  154  clear
+  155  ASCII ---- UTF-8
+  156  history > h.dat
