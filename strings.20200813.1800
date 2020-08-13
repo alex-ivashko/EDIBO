@@ -1,0 +1,110 @@
+Python 3.6.8 (default, Jan 14 2019, 11:02:34) 
+[GCC 8.0.1 20180414 (experimental) [trunk revision 259383]] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> fruit = 'banana'
+>>> letter = fruit[1]
+>>> print(letter)
+a
+>>> letter=fruit[0]
+>>> print(letter)
+b
+>>> len(fruit)
+6
+>>> numbers = []
+>>> len(numbers)
+0
+>>> numbers.append(2)
+>>> len(numbers)
+1
+>>> numbers.append(135455)
+>>> len(numbers)
+2
+>>> numbers
+[2, 135455]
+>>> vaardi = ['a','ab','abc']
+>>> vaardi
+['a', 'ab', 'abc']
+>>> vaardu_garumi = []
+>>> vaardu_garumi.append(len(vaardi[0]))
+>>> vaardu_garumi.append(len(vaardi[0]))
+>>> vaardu_garumi.append(len(vaardi[1]))
+>>> vaardu_garumi.append(len(vaardi[2]))
+>>> vardu_garumi
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    vardu_garumi
+NameError: name 'vardu_garumi' is not defined
+>>> typpe(vaaardi)
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    typpe(vaaardi)
+NameError: name 'typpe' is not defined
+>>> type(vaardi)
+<class 'list'>
+>>> fruit='banana'
+>>> len(fruit)
+6
+>>> last=fruit[length-1]
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    last=fruit[length-1]
+NameError: name 'length' is not defined
+>>> print(last)
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    print(last)
+NameError: name 'last' is not defined
+>>> N = len(fruit)
+>>> N
+6
+>>> 'a''in 'banana'
+SyntaxError: invalid syntax
+>>> 'a' in 'banana'
+True
+>>> 'seed'in 'banana'
+False
+>>> for char in fruit:
+	print(char)
+
+	
+b
+a
+n
+a
+n
+a
+>>> index = 6-1
+>>> while index < len(fruit)
+SyntaxError: invalid syntax
+>>> while index < len(fruit):
+	letter = fruit[index]
+	print(letter)
+	index = index + 1
+
+	
+a
+>>> index = 5
+>>> while index >= 0
+SyntaxError: invalid syntax
+>>> while index >= 0:
+	letter = fruit[index]
+	print(letter)
+	index = index - 1
+
+	
+a
+n
+a
+n
+a
+b
+>>> while index => 0:
+	letter = fruit[index]
+	print(letter)
+	index = index - 1
+	
+SyntaxError: invalid syntax
+>>> while index => 0:
+	letter = fruit[index]
+	print(letter)
+	index = index - 1

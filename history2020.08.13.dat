@@ -1,0 +1,152 @@
+ 1/1: def f(): pass
+ 1/2: f()
+ 1/3: type(f)
+ 1/4: def if()
+ 1/5: def f(): print ("Yo")
+ 1/6: f()
+ 1/7: def g()
+ 1/8:
+def g():
+    a = 22
+    print (a+3)
+ 1/9: g()
+1/10: g()
+1/11:
+def g(a):
+    print (a+3)
+1/12: g()
+   1: g(25)
+   2: def (g):
+   3: def (g):
+   4:
+def g():
+    a = 22
+    print (a+3)
+   5: g(25)
+   6: g()
+   7: def()
+   8: f()
+   9: def f(): print ("Yo")
+  10: f()
+  11:
+def g(a):
+    c = a+3
+    print(c)
+  12: g(123)
+  13:
+def h():
+    c = a + b
+    print(c)
+  14:
+def h():
+    a = 11
+    b = 22
+    c = a + b
+    print(c)
+  15:
+def h():
+    a = 11
+    b = 22
+    c = a + b
+    print(c)
+  16: h()
+  17:
+def h():
+    a = 11
+    b = 22
+    c = a + b
+    print(c)
+  18: def h(a,b)
+  19:
+def h(a,b):
+    c = a + b
+    print(c)
+  20: h()
+  21: h(1,5)_
+  22: h(1,3)
+  23: h(23,7)
+  24: def h(a,b)
+  25:
+def h(a,b):
+    a = 11
+    b = 22
+    c = a + b
+    print(c)
+  26: h(a,b)
+  27: h(c)
+  28:
+def h2 (a = 22, b = 33):
+    c = a + b
+    print(c)
+  29: h2()
+  30:
+def h2 (a = 22, b = 33):
+    c = a - b
+    print(c)
+  31: h2()
+  32:
+def f2(a,b):
+    return(a+b)
+  33: f2(3,4)
+  34: print (f2(3,4))
+  35: print(f2(3,4))
+  36: mkdir dev
+  37: cd dev
+  38: mkdir python_files
+  39: cd python_files
+  40: pwd
+  41: echo Hello > a.dat
+  42: f = open("a.dat")
+  43: f = open("a.dat")
+  44: f = open("a.dat")
+  45: pwd
+  46: cd..
+  47: pwd
+  48: cd ..
+  49: pwd
+  50: cd ..
+  51: f = open("a.dat")
+  52: type(f)
+  53: f.readlines()
+  54: f.readlines()
+  55: s = f.readlines()
+  56: f.close()
+  57: s
+  58: print(s)
+  59: s = f.readlines()
+  60: print(s)
+  61: type(s)
+  62: print(s+s)
+  63: print(s/s)
+  64: print(s.s)
+  65: f.tell(s)
+  66: f.tell()
+  67: f.open()
+  68: s = f.readlines()
+  69: f.tell()
+  70: f.seek(0)
+  71: f. close()
+  72: f = open("a. dat","r")
+  73: f = open("a.dat","r")
+  74: f.readlines()
+  75: f.close()
+  76: f = open("a.dat","w")
+  77: f.readlines()
+  78: ls -l
+  79: ls
+  80: f.write("EDIBO")
+  81: f.close()
+  82: ls -l
+  83: f.readlines()
+  84: f = open("a.dat","w")
+  85: f.write("EDIBO")
+  86: f.close()
+  87: f.closed
+  88: f.write("EDIBO\n")
+  89: f.closed
+  90: f = open("a.dat","w")
+  91: f.closed
+  92: f.write("EDIBO\n)
+  93: f.write("\n\n\ntEDIBO\n)
+  94: %history -g -f
+  95: %history -g -f history2020.08.13.dat
