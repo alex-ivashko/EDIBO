@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='02:42:26 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREAT TRIGGER MyTBL_0a_guard</ENTRY>
+<ENTRY timestamp='02:42:37 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MyTBL_0a_guard</ENTRY>
+<ENTRY timestamp='02:42:52 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MyTbl2_guard</ENTRY>
+<ENTRY timestamp='02:42:58 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MyTbl_2_guard</ENTRY>
+<ENTRY timestamp='02:45:58 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL2a_guard</ENTRY>
+<ENTRY timestamp='02:46:59 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL_2a_guard</ENTRY>
+<ENTRY timestamp='02:48:52 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL_2a_guard</ENTRY>
+<ENTRY timestamp='02:51:33 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL_2a_guard</ENTRY>
+<ENTRY timestamp='02:53:04 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL_2a_guard</ENTRY>
+<ENTRY timestamp='02:54:10 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TRIGGER MYTBL_2a_guard</ENTRY>
+<ENTRY timestamp='03:06:13 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3</ENTRY>
+<ENTRY timestamp='03:10:21 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MYTBL2A` &#x0A;(`column1` varchar(5) DEFAULT &apos;ABCD&apos;,&#x0A;`column2` int(11) NOT NULL, &#x0A;`column3` int(11) NOT NULL AUTO_INCREMENT,&#x0A;`fkColumn4` varchar(45) DEFAULT NULL, &#x0A;PRIMARY KEY (`column3`)) &#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=1&#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='03:11:21 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MYTBL2A` &#x0A;(`column1` varchar(5) DEFAULT &apos;ABCD&apos;,&#x0A;`column2` int(11) NOT NULL, &#x0A;`column3` int(11) NOT NULL AUTO_INCREMENT,&#x0A;`fkColumn4` varchar(45) DEFAULT NULL, &#x0A;PRIMARY KEY (`column3`)) &#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=1&#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='03:11:49 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MYTBL2AA` &#x0A;(`column1` varchar(5) DEFAULT &apos;ABCD&apos;,&#x0A;`column2` int(11) NOT NULL, &#x0A;`column3` int(11) NOT NULL AUTO_INCREMENT,&#x0A;`fkColumn4` varchar(45) DEFAULT NULL, &#x0A;PRIMARY KEY (`column3`)) &#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=1&#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='03:14:21 PM'>DROP TABLE `db24`.`MYTBL2A`</ENTRY>
+<ENTRY timestamp='03:16:21 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MYTBL2AA` &#x0A;(`column1` varchar(5) DEFAULT &apos;ABCD&apos;,&#x0A;`column2` int(11) NOT NULL, &#x0A;`column3` int(11) NOT NULL AUTO_INCREMENT,&#x0A;`fkColumn4` varchar(45) DEFAULT NULL, &#x0A;PRIMARY KEY (`column3`)) &#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=1&#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='03:20:50 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT M0 fkColumn4, M0a.Title FROM MYTBL2AA M0&#x0A;JOIN MYTBL2AA M0a&#x0A;ON M0. fkColumn4=M0a.Id</ENTRY>
+<ENTRY timestamp='03:22:40 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT M0 fkColumn4, M0a.Title FROM MYTBL2AA M0&#x0A;JOIN MYTBL2AA M0a&#x0A;ON M0. fkColumn4=Id</ENTRY>
+<ENTRY timestamp='03:23:02 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT M0 fkColumn4, M0a.Title FROM MYTBL2AA M0</ENTRY>
+<ENTRY timestamp='03:23:13 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT M0 fkColumn4, M0a.Title FROM MYTBL2AA M0</ENTRY>
+<ENTRY timestamp='03:23:43 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT M0 fkColumn4, M0a.Title FROM MYTBL2AA M0</ENTRY>
+<ENTRY timestamp='03:24:06 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MYTBL2AA M0&#x0A;JOIN MYTBL2a M0a&#x0A;ON M0. fkColumn4=Id</ENTRY>
+<ENTRY timestamp='03:24:39 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MYTBL2AA M0&#x0A;JOIN MYTBL2a M0a&#x0A;ON fkColumn4=Id</ENTRY>
+<ENTRY timestamp='03:31:47 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3a</ENTRY>
+<ENTRY timestamp='03:34:36 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3a</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MyTBL_2a` &#x0A;(`Id` int(11) NOT NULL AUTO_INCREMENT,&#x0A;`Title` varchar(20) NOT NULL,&#x0A;PRIMARY KEY (`Id`))&#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=3 &#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='03:35:10 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3a</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MyTBL_2a` &#x0A;(`Id` int(11) NOT NULL &#x0A;AUTO_INCREMENT=1,&#x0A;`Title` varchar(20) NOT NULL,&#x0A;PRIMARY KEY (`Id`))&#x0A;ENGINE=InnoDB &#x0A;AUTO_INCREMENT=3 &#x0A;DEFAULT CHARSET=utf8mb4 &#x0A;COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='04:11:22 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE TABLE MyTBL_3a</ENTRY>
+<ENTRY timestamp='~'>CREATE TABLE `MyTBL_2a` &#x0A;(`Id` int(11) NOT NULL AUTO_INCREMENT, &#x0A;`Title` varchar(20) NOT NULL,&#x0A; PRIMARY KEY (`Id`)) &#x0A; ENGINE=InnoDB&#x0A; AUTO_INCREMENT=1&#x0A; DEFAULT CHARSET=utf8mb4&#x0A; COLLATE=utf8mb4_0900_ai_ci</ENTRY>
+<ENTRY timestamp='04:14:48 PM'>ALTER TABLE `db24`.`MYTBL2AA` &#x0A;CHANGE COLUMN `fkColumn4` `fkColumn4` INT NOT NULL DEFAULT &apos;2&apos;</ENTRY>
+<ENTRY timestamp='04:18:45 PM'>ALTER TABLE `db24`.`MYTBL2AA` &#x0A;ADD INDEX `MyCOMS2_idx` (`fkColumn4` ASC)</ENTRY>
+<ENTRY timestamp='~'>ALTER TABLE `db24`.`MYTBL2AA` &#x0A;ADD CONSTRAINT `MyCOMS2`&#x0A;  FOREIGN KEY (`fkColumn4`)&#x0A;  REFERENCES `db24`.`MyTBL_2a` (`Id`)&#x0A;  ON DELETE NO ACTION&#x0A;  ON UPDATE NO ACTION</ENTRY>
+<ENTRY timestamp='04:23:35 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MYTBL2AA M0 &#x0A;JOIN MyTBL_2a M0a &#x0A;ON M0. fkColumn4=Id</ENTRY>
+<ENTRY timestamp='04:32:05 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2 (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;</ENTRY>
+<ENTRY timestamp='04:32:25 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2 (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;</ENTRY>
+<ENTRY timestamp='04:33:03 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2a (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;</ENTRY>
+<ENTRY timestamp='04:33:30 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2a (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;    end;</ENTRY>
+<ENTRY timestamp='04:33:48 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2a (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    end;</ENTRY>
+<ENTRY timestamp='04:36:14 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2a (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiisanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;    end;</ENTRY>
+<ENTRY timestamp='04:36:53 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION  MYFUNC_2a (solis INT) RETURNS INT&#x0A;-- izmantosanas piemers sauksim MyFUNC(10 - pieskriam vertibu)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;    end;</ENTRY>
+<ENTRY timestamp='04:57:34 PM'>SELECT * FROM db24MyTBL_2a</ENTRY>
+<ENTRY timestamp='04:57:45 PM'>SELECT * FROM db24.MyTBL_2a</ENTRY>
+<ENTRY timestamp='04:58:31 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(1)</ENTRY>
+<ENTRY timestamp='04:58:41 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(20)</ENTRY>
+<ENTRY timestamp='04:59:00 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP function IF EXISTS `MYFUNC_2a`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` FUNCTION `MYFUNC_2a`(solis INT) RETURNS int(11)&#x0A;BEGIN&#x0A;&#x09;DECLARE lielums, done INT;&#x0A;    DECLARE mainig1 INTEGER;&#x0A;    DECLARE mainig2 VARCHAR(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT Id, Title FROM MyTBL_2a;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        IF done OR mainig2 LIKE &apos;ABCDE&apos;THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;        SET lielums = lielums + mainig1;&#x0A;&#x09;END LOOP;&#x0A;    CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;    end</ENTRY>
+<ENTRY timestamp='04:59:08 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(20)</ENTRY>
+<ENTRY timestamp='04:59:26 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(21)</ENTRY>
+<ENTRY timestamp='05:00:31 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(1001)</ENTRY>
+<ENTRY timestamp='05:01:34 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(100)</ENTRY>
+<ENTRY timestamp='05:02:31 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_2a(100) AS RESULT</ENTRY>
+<ENTRY timestamp='05:03:01 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MYFUNC_2a(100) AS RESULT</ENTRY>
+<ENTRY timestamp='05:03:27 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MYFUNC_2a(100) AS RESULT</ENTRY>
+<ENTRY timestamp='05:04:17 PM'>SELECT * FROM db24.MyTBL_2a</ENTRY>
+<ENTRY timestamp='05:11:17 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE PROCEDURE  MYPROC_2 (IN inID INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_2a WHERE Id=@inId;&#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>DELIMITER;</ENTRY>
+<ENTRY timestamp='05:12:24 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE PROCEDURE  MYPROC_2 (IN inId INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_2a WHERE Id=@inId;&#x0A;END;</ENTRY>
+<ENTRY timestamp='05:13:46 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE PROCEDURE  MYPROC_2 (IN inId INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_2a WHERE Id=inId;&#x0A;END;</ENTRY>
+<ENTRY timestamp='05:13:56 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP procedure IF EXISTS `MYPROC_2`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` PROCEDURE `MYPROC_2`(IN inID INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_2a WHERE Id=inId;&#x0A;END</ENTRY>
+<ENTRY timestamp='05:14:51 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>Call MYPROC_2(2)</ENTRY>
+<ENTRY timestamp='05:20:25 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>Call MYPROC_2(2)</ENTRY>
